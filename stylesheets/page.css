@@ -70,3 +70,11 @@ body {
 .movie-poster {
   border: 1px solid white;
 }
+
+.error-message {
+  box-shadow: 0px 5px 12px rgba(234, 7, 7, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  columns: white;
+}
