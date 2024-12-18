@@ -15,17 +15,22 @@
         <p class="sub-title-data">Search for your favorite Movies</p>
       </div>
       <div class="input_data_field">
-        <input
-          type="text"
-          placeholder="Enter movie name (e.g., Inception, Avatar, ...)"
-          class="input_data"
-          required
-        />
-        <button class="search-button">Search</button>
+        <form class="form-field" id="form_field">
+          <input
+            type="text"
+            placeholder="Enter movie name (e.g., Inception, Avatar, ...)"
+            class="input_data"
+            id="input_data"
+            required
+          />
+          <button class="search-button" type="submit">Search</button>
+        </form>
       </div>
     </section>
-    <div class="results">
+    <div class="results" id="results">
       <p class="results-data"></p>
     </div>
+
+    <script type="module" src="scripts/page.js"></script>
   </body>
 </html>
