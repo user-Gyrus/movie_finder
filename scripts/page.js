@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   async function searchMovie(movieName) {
     try {
       const api_data = await fetch(
-        `http://www.omdbapi.com/?apikey=5810b0c&s=${movieName}`
+        `https://www.omdbapi.com/?apikey=5810b0c&s=${movieName}`
       );
       const data = await api_data.json();
       if (data.Response === "False") {
