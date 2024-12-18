@@ -4,7 +4,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   const movieForm = document.getElementById("form_field");
-  const movieResult = document.getElementById("results");
+  const movieResult = document.getElementById("results-section");
   movieForm.addEventListener("submit", (e) => {
     e.preventDefault();
     const movieName = document.getElementById("input_data").value;
